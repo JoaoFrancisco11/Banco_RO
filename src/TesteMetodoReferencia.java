@@ -3,6 +3,6 @@
 public class TesteMetodoReferencia {
     public static void main(String[] args) {
 
-        }
+
     }
 }
