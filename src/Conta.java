@@ -17,4 +17,10 @@ public class Conta {
         }
     }
 
+    public void transferir(double valor, Conta pessoa){
+        boolean flagSacar = this.sacar(valor);
+        if(flagSacar){
+            pessoa.depositar(valor);
+        }
+    }
 }
