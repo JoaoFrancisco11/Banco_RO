@@ -7,7 +7,7 @@ public class Cliente {
     /*
     * Constructor
     * */
-    public Cliente(String cpf, String nome){
+    public Cliente(String nome, String cpf){
         this.cpf = cpf;
         this.nome = nome;
     }
