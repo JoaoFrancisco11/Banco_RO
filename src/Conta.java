@@ -60,10 +60,10 @@ public class Conta {
         }
     }
 
-    public void transferir(double valor, Conta pessoa){
+    public void transferir(double valor, Conta destino){
         boolean flagSacar = this.sacar(valor);
         if(flagSacar){
-            pessoa.depositar(valor);
+            destino.depositar(valor);
         }
     }
 }

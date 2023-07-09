@@ -10,5 +10,8 @@ public class TesteHeranca {
         cc.depositar(1000);
         cc.sacar(233.76);
         System.out.println("O saldo da conta corrente de " + cc.getTitular().getNome() +" é: " + cc.getSaldo());
+
+        cp.transferir(1500, cc);
+        System.out.println("O saldo da conta corrente de " + cc.getTitular().getNome() +" é: " + cc.getSaldo());
     }
 }
