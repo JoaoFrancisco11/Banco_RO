@@ -1,3 +1,4 @@
+/*
 public class TesteEncapsulamento {
 
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class TesteEncapsulamento {
         cliente.setProfissao("Desenvolvedor");
         cliente.setSalario(1000);
 
-        Conta conta = new Conta();
+        Conta conta = new Conta(100,258,new Cliente());
         conta.setTitular(cliente);
 
         System.out.println(conta.getTitular().getNome());
@@ -20,3 +21,4 @@ public class TesteEncapsulamento {
     }
 
 }
+*/

@@ -4,11 +4,21 @@ public class Conta {
     private Cliente titular;
     private double saldo;
 
+    /*
+    * Constructor
+    * */
+    public Conta(int agencia, int numero, Cliente titular){
+        this.agencia = agencia;
+        this.numero = numero;
+        this.titular = titular;
+    }
+
+
     public void depositar(double valor){
         this.saldo += valor;
     }
     /*
-    * Gets methods
+    * Gets methods-
     * */
     public int getAgencia(){
         return this.agencia;
