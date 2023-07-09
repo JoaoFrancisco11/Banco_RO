@@ -7,6 +7,8 @@ public class TesteComposicao {
         clientePedro.salario = 1000;
 
         Conta conta = new Conta();
+        conta.titular = clientePedro;
+
 
     }
 }
