@@ -67,4 +67,7 @@ public abstract class Conta {
             destino.depositar(valor);
         }
     }
+
+    public abstract void gerarExtrato();
+
 }
