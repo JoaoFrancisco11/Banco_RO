@@ -1,4 +1,5 @@
-public class Conta {
+/*Classe abastrata*/
+public abstract class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
